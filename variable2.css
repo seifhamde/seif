@@ -1,0 +1,33 @@
+.container{
+    width: 90%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.item{
+    width: 30%;
+    height: 50%;
+    background: white;
+
+}
+@media (min-width:100px) and (max-width:400px) {
+    .item{
+        width: 90%;
+        height: 50%;
+        background: white;
+    
+    }
+    
+}
+@media (min-width:401px) and (max-width:600px) {
+    .item{
+        width: 45%;
+        height: 50%;
+        background: white;
+    
+    }
+    
+}
